@@ -59,11 +59,12 @@ def process_directory(directory, exclusion_phrases):
     return all_methods
 
 def main():
-    directory = 'C:\\Projects\\1С src bases\\ssl_3_1\\src\\cf\\CommonModules\\АвтономнаяРаботаСлужебный\\'  # Укажите путь к каталогу
+    directory = 'C:\\Projects\\1С src bases\\ssl_3_1\\src\\cf\\CommonModules\\'  # Укажите путь к каталогу
     exclusion_phrases = [
-        "Для внутреннего использования",
-        "Не использовать напрямую",
-        "Внутренняя функция"
+        "Для внутреннего использования"
+        #,
+        #"Не использовать напрямую",
+        #"Внутренняя функция"
         # Добавьте другие фразы-исключения по необходимости
     ]
     
